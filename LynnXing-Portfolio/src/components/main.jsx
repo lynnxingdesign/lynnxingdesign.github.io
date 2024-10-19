@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import backgroundImage from '/src/assets/Background.jpg'
 
 
 const main = () => {
@@ -8,7 +9,7 @@ const main = () => {
 
     <div id='main'>
         {/* insert image in main page ( scale-x-[-1] -> Flip image)*/}
-        <img className='w-full h-screen object-cover object-left' src='https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'>
+        <img className='w-full h-screen object-cover object-left' src={backgroundImage}>
         </img>
 
         {/* Create the white shadow screen effect*/}
@@ -16,19 +17,19 @@ const main = () => {
         
 
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-            <h1 className='sm:text-5xl text-4xl font-industry font-bold text-gray-800'>I'm Lynn Xing</h1>
+            <h1 className='sm:text-5xl text-4xl font-industry font-bold text-[#543247]'>I'm Lynn Xing</h1>
             {/* React-type-animation package (npm install react-type-animation)
             https://www.npmjs.com/package/react-type-animation */}
-            <h2 className='flex sm:text-3xl text-2xl pt-4 text-[#0092ff]'>I'm a
+            <h2 className='flex sm:text-3xl text-2xl pt-4 text-[#ff00aa]'>I
             <TypeAnimation
                 sequence={[
-                    'designer',
+                    'am an exhibit designer',
                     2000, // wait 2s 
-                    'Exhibit designer in blah blah',
+                    'specialize in creating immersive environment',
                     2000, // wait 2s 
-                    'Chess lover',
+                    'blend creativity and functionality',
                     2000, // wait 2s 
-                    'Design Enthusiast',
+                    'strive to create memorable experiences',
                     2000 // wait 2s 
                     ]}
             wrapper="span"
@@ -37,7 +38,7 @@ const main = () => {
             repeat={Infinity}/>
         </h2>
         
-        <div className='flex text-[#193144] justify-between pt-6 max-w-[200px] w-full'>
+        <div className='flex text-[#543247] justify-between pt-6 max-w-[200px] w-full'>
             <a href='https://x.com/MengpangXing' target="_blank">
             <FaTwitter  className='cursor-pointer' size ={20}></FaTwitter></a>
 
