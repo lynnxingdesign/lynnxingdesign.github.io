@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail} from 'react-icons/ai'
 import {GrProjects} from 'react-icons/gr'
 import {BsPerson} from 'react-icons/bs'
-
+import logo from '../../src/assets/Logo.svg'
 
 import resume from '/src/assets/Mengpang_Xing_Resume.pdf'
 const Sidenav = () => {
@@ -21,7 +21,7 @@ const Sidenav = () => {
                 <div className='fixed w-full h-screen bg-white/90 flex flex-col  justify-center items-center z-20'> 
                     {/* Create a menu option for Home page (phone mode)*/}
                     <a onClick={handleNav} href='#main' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <AiOutlineHome size={20}/>
+                        <img src={logo} className="w-[20px] h-[20px]" />
                         <span className='pl-4'>Home</span>
                     </a>
 
@@ -60,7 +60,8 @@ const Sidenav = () => {
             <div className='flex flex-col'>
                 {/* Create a menu option for Home page (computer mode)*/}
                 <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineHome size={20}/>
+                    {/* <AiOutlineHome size={20}/> */}
+                    <img src={logo} className="w-[20px] h-[20px]" />
                 </a>
                 {/* Create a menu option for Work page (computer mode)*/}
                 <a href='#work' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>

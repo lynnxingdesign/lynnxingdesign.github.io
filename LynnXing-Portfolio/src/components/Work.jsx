@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkItem from './WorkItem'
+import Logo from '/src/assets/Logo.svg'
 
 
 const data = [
@@ -31,6 +32,7 @@ const Work = () => {
       {data.map((item, idx) => (
         <WorkItem key={idx} year={item.year} title={item.title} duration={item.duration} details={item.details} />
       ))}
+      {/* <Logo></Logo> */}
     </div>
   );
 };
