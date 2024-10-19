@@ -12,8 +12,8 @@ function App() {
     <div>
       <Sidenav></Sidenav>
       <Main></Main>
-      <Work></Work>
       <Project></Project>
+      <Work></Work>
       <Contact></Contact>
 
       

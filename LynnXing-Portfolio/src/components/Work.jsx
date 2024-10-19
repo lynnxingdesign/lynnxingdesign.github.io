@@ -4,22 +4,22 @@ import WorkItem from './WorkItem'
 
 const data = [
     {
-        year: 2024,
-        title: 'Full-Stack Developer, Y STEM and Chess Inc',
-        duration: 'Jun 2024 - Sep 2024',
-        details: `As a Full-Stack Developer, I collaborated with the design team to develop and maintain responsive, user-friendly web interfaces for an educational chess platform, focusing on accessibility and enhancing the user experience. I built and optimized interactive features and game elements using TypeScript and React to support students' learning in chess and STEM subjects. Additionally, I conducted rigorous testing and debugging to ensure the web applications performed seamlessly across various browsers and devices, quickly resolving any compatibility issues.`
+        year: 2022,
+        title: 'Exhibit Designer, Catalyst Exhibit',
+        duration: 'May 2022 - Current',
+        details: `As an exhibit designer, I create, analyze, and deliver designs that tell compelling stories and meet and exceed client's expectations. I work with clients and the internal team to understand and define the goals of each project, creating engaging layouts that enhance visitor experience. I utilize skills in 3D modeling and graphic design to produce detailed renderings and plans, ensuring that each design is both aesthetically pleasing and functional.`
     },
     {
-        year: 2023,
-        title: 'STEM Scholar Internship, University of Illinois Chicago',
-        duration: 'Nov 2022 - Aug 2023',
-        details: 'I collaborated with students from over 20 high schools to tackle challenges in engineering, architecture, and sustainability. I engineered a Rube Goldberg machine, applying physics and mechanical engineering principles, and participated in civil engineering and architecture projects, gaining insights into structural design and foundation engineering. Additionally, I designed a community solar microgrid model, enhancing my understanding of sustainable energy practices and electrical engineering applications.'
+        year: 2022,
+        title: 'Furnishing Render Assistant, Inspired Artisans',
+        duration: 'Jan 2020 - May 2022',
+        details: 'I supported the team by creating high-quality 3D renderings of furniture and interior spaces. My responsibility included collaborating with designers to understand project requirements, utilizing software like SketchUp and Photoshop to produce realistic visualizations, ensuring that designs met client specifications. My attention to detail and strong communication skills contributed to streamlined workflows and successful project outcomes, enhancing client satisfaction and project approvals.'
     },
     {
-        year: 2023,
-        title: 'Coding Fun Apprenticeship, Pui Tak Center',
-        duration: 'Jan 2023 - June 2023',
-        details: 'During my Coding Fun Apprenticeship at Pui Tak Center, I mastered computer science fundamentals with a focus on web development using HTML, CSS, and JavaScript. I developed a strong understanding of coding concepts, web design principles, and interactive content creation while engaging in hands-on projects that simulated real-world scenarios, enhancing my problem-solving and teamwork skills. I also applied my knowledge of responsive design and CSS animation to create functional, user-friendly web applications, effectively bridging the gap between theory and practice in software development.'
+        year: 2021,
+        title: ' Art Project Instructor, GLOMADO',
+        duration: 'Apr 2020 - Dec 2021',
+        details: 'As an Art Project Instructor, I led engaging art classes for children, fostering creativity and self-expression through various mediums such as painting, drawing, and sculpture. I developed lesson plans that catered to diverse age groups and skill levels, encouraging artistic exploration while promoting teamwork and confidence. My role involved creating a positive and inclusive classroom environment, guiding students in their projects, and providing constructive feedback.'
     },
 ]
 

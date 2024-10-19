@@ -10,12 +10,6 @@ import PersonalWebProject from '/src/assets/PersonalWebProject.png'
 const Project = () => {
   return (
     <div id='project' className='max-w-[1048px] m-auto md:pl-20 p-4 py-16'>
-
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Project</h1>
-        <p className='text-center py-8 text-lg font-semibold text-gray-700'>
-            Explore the complete list of my projects below, showcasing my experience and skills in software development, web design, and engineering solutions.
-        </p>
-
         {/* Project Title, Programming Language, and Link */}
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={SnakeGameProjectImg} title='Snake Game' ProgrammingLanguage='DrRacket' ProjectLink='https://github.com/Mythventor/SnakeGame.git'></ProjectItem>
