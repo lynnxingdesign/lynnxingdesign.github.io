@@ -2,11 +2,11 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 
 // Electrolit image
-import Electrolit1 from '/src/assets/Electrolit1Project.png';
-import Electrolit2 from '/src/assets/Electrolit2Project.png';
-import Electrolit3 from '/src/assets/Electrolit3Project.png';
-import Electrolit4 from '/src/assets/Electrolit4Project.png';
-import Electrolit5 from '/src/assets/Electrolit5Project.png';
+import Electrolit1 from '/src/assets/Electrolit1Project.jpg';
+import Electrolit2 from '/src/assets/Electrolit2Project.jpg';
+import Electrolit3 from '/src/assets/Electrolit3Project.jpg';
+import Electrolit4 from '/src/assets/Electrolit4Project.jpg';
+import Electrolit5 from '/src/assets/Electrolit5Project.jpg';
 
 // Dell image
 import Dell1 from '/src/assets/DellSc1Project.jpg';
@@ -43,11 +43,11 @@ import SoundHound3 from '/src/assets/SoundHound3Project.jpg';
 
 // Audi image
 import Audi1 from '/src/assets/AudiShowroom1Project.jpg';
-import Audi2 from '/src/assets/AudiShowroom2Project.png';
-import Audi3 from '/src/assets/AudiShowroom3Project.png';
-import Audi4 from '/src/assets/AudiShowroom4Project.png';
-import Audi5 from '/src/assets/AudiShowroom5Project.png';
-import Audi6 from '/src/assets/AudiShowroom6Project.png';
+import Audi2 from '/src/assets/AudiShowroom2Project.jpg';
+import Audi3 from '/src/assets/AudiShowroom3Project.jpg';
+import Audi4 from '/src/assets/AudiShowroom4Project.jpg';
+import Audi5 from '/src/assets/AudiShowroom5Project.jpg';
+import Audi6 from '/src/assets/AudiShowroom6Project.jpg';
 
 
 const Project = () => {
@@ -62,7 +62,7 @@ const Project = () => {
       title: 'Dell SC 2024',
 
     },
-    
+
     {
       images: [Fairbank1, Fairbank2, Fairbank3, Fairbank4, Fairbank5, Fairbank6],
       title: 'Fairbank RFP 2024',

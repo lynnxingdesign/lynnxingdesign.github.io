@@ -19,7 +19,7 @@ const data = [
     {
         year: 2019,
         title: ' Art Project Instructor, GLOMADO',
-        duration: 'Apr 2029 - Dec 2021',
+        duration: 'Apr 2019 - Dec 2021',
         details: 'As an Art Project Instructor, I led engaging art classes for children, fostering creativity and self-expression through various mediums such as painting, drawing, and sculpture. I developed lesson plans that catered to diverse age groups and skill levels, encouraging artistic exploration while promoting teamwork and confidence. My role involved creating a positive and inclusive classroom environment, guiding students in their projects, and providing constructive feedback.'
     },
 ]
