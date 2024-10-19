@@ -21,6 +21,34 @@ import Barco3 from '/src/assets/Barco3Project.jpg'
 import Barco4 from '/src/assets/Barco4Project.jpg'
 import Barco5 from '/src/assets/Barco5Project.jpg'
 
+// Fairbank image
+import Fairbank1 from '/src/assets/Fairbank1Project.jpg';
+import Fairbank2 from '/src/assets/Fairbank2Project.jpg';
+import Fairbank3 from '/src/assets/Fairbank3Project.jpg';
+import Fairbank4 from '/src/assets/Fairbank4Project.jpg';
+import Fairbank5 from '/src/assets/Fairbank5Project.jpg';
+import Fairbank6 from '/src/assets/Fairbank6Project.jpg';
+
+// Epiroc image
+import Epiroc1 from '/src/assets/Epiroc1Project.jpg';
+import Epiroc2 from '/src/assets/Epiroc2Project.jpg';
+import Epiroc3 from '/src/assets/Epiroc3Project.jpg';
+import Epiroc4 from '/src/assets/Epiroc4Project.jpg';
+import Epiroc5 from '/src/assets/Epiroc5Project.jpg';
+
+// SoundHound image
+import SoundHound1 from '/src/assets/SoundHound1Project.jpg';
+import SoundHound2 from '/src/assets/SoundHound2Project.jpg';
+import SoundHound3 from '/src/assets/SoundHound3Project.jpg';
+
+// Audi image
+import Audi1 from '/src/assets/AudiShowroom1Project.jpg';
+import Audi2 from '/src/assets/AudiShowroom2Project.png';
+import Audi3 from '/src/assets/AudiShowroom3Project.png';
+import Audi4 from '/src/assets/AudiShowroom4Project.png';
+import Audi5 from '/src/assets/AudiShowroom5Project.png';
+import Audi6 from '/src/assets/AudiShowroom6Project.png';
+
 
 const Project = () => {
   const projects = [
@@ -34,19 +62,33 @@ const Project = () => {
       title: 'Dell SC 2024',
 
     },
+    
+    {
+      images: [Fairbank1, Fairbank2, Fairbank3, Fairbank4, Fairbank5, Fairbank6],
+      title: 'Fairbank RFP 2024',
+
+    },
+
     {
       images: [Barco1, Barco2, Barco3, Barco4, Barco5],
       title: 'Barco RSNA 2024',
 
     },
+
     {
-      images: [Electrolit4, Electrolit5, Electrolit1],
-      title: 'Chess Game',
+      images: [Epiroc1, Epiroc2, Epiroc3, Epiroc4, Epiroc5],
+      title: 'Epiroc MineExpo 2024',
 
     },
     {
-      images: [Electrolit5, Electrolit1, Electrolit2],
-      title: 'Another Project',
+      images: [SoundHound1, SoundHound2, SoundHound3],
+      title: 'SoundHound NRA 2024',
+
+    },
+    {
+      images: [Audi1, Audi2, Audi3, Audi4, Audi5, Audi6],
+      title: 'Audi Showroom 2023',
+
     }
   ];
 
