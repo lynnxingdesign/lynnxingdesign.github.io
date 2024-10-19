@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily:{
         industry:['Industry', 'sans-serif'],
+        opensans: ['"Open Sans"', 'sans-serif'],  // Add Open Sans font
 
       },
     },
