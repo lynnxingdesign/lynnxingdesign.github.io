@@ -8,12 +8,18 @@ import Electrolit3 from '/src/assets/Electrolit3Project.png';
 import Electrolit4 from '/src/assets/Electrolit4Project.png';
 import Electrolit5 from '/src/assets/Electrolit5Project.png';
 
-// Dell
+// Dell image
 import Dell1 from '/src/assets/DellSc1Project.jpg';
 import Dell2 from '/src/assets/DellSc2Project.jpg';
 import Dell3 from '/src/assets/DellSc3Project.jpg';
 import Dell4 from '/src/assets/DellSc4Project.jpg';
 
+// Barco image
+import Barco1 from '/src/assets/Barco1Project.jpg'
+import Barco2 from '/src/assets/Barco2Project.jpg'
+import Barco3 from '/src/assets/Barco3Project.jpg'
+import Barco4 from '/src/assets/Barco4Project.jpg'
+import Barco5 from '/src/assets/Barco5Project.jpg'
 
 
 const Project = () => {
@@ -29,8 +35,8 @@ const Project = () => {
 
     },
     {
-      images: [Electrolit3, Electrolit4, Electrolit5],
-      title: 'Portfolio',
+      images: [Barco1, Barco2, Barco3, Barco4, Barco5],
+      title: 'Barco RSNA 2024',
 
     },
     {
