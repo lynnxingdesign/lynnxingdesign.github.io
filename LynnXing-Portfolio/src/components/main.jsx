@@ -23,7 +23,7 @@ const main = () => {
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-[#ff00aa]'>I
             <TypeAnimation
                 sequence={[
-                    'am an exhibit designer',
+                    'am an experiential designer',
                     2000, // wait 2s 
                     'specialize in creating immersive environment',
                     2000, // wait 2s 

@@ -4,7 +4,7 @@ import {GrProjects} from 'react-icons/gr'
 import {BsPerson} from 'react-icons/bs'
 import logo from '../../src/assets/Logo.svg'
 
-import resume from '/src/assets/Mengpang_Xing_Resume.pdf'
+import resume from '/src/assets/Resume.pdf'
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
     const handleNav = () =>{
