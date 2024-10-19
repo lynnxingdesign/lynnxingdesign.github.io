@@ -16,19 +16,19 @@ const main = () => {
         
 
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-            <h1 className='sm:text-5xl text-4xl font-industry font-bold text-gray-800'>I'm Mengpang Xing</h1>
+            <h1 className='sm:text-5xl text-4xl font-industry font-bold text-gray-800'>I'm Lynn Xing</h1>
             {/* React-type-animation package (npm install react-type-animation)
             https://www.npmjs.com/package/react-type-animation */}
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-[#0092ff]'>I'm a
             <TypeAnimation
                 sequence={[
-                    'developer',
+                    'designer',
                     2000, // wait 2s 
-                    'CS student in Northwestern',
+                    'Exhibit designer in blah blah',
                     2000, // wait 2s 
                     'Chess lover',
                     2000, // wait 2s 
-                    'Tech Enthusiast',
+                    'Design Enthusiast',
                     2000 // wait 2s 
                     ]}
             wrapper="span"
