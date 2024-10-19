@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
 import backgroundImage from '/src/assets/Background.jpg'
 
 
@@ -39,16 +40,16 @@ const main = () => {
         </h2>
         
         <div className='flex text-[#543247] justify-between pt-6 max-w-[200px] w-full'>
-            <a href='https://x.com/MengpangXing' target="_blank">
-            <FaTwitter  className='cursor-pointer' size ={20}></FaTwitter></a>
+            <a href='https://x.com/LynnnnXing' target="_blank">
+            <FaXTwitter  className='cursor-pointer' size ={20}></FaXTwitter></a>
 
-            <a href="https://www.facebook.com/mengpang.xing?mibextid=LQQJ4d" target="_blank">
+            <a href="https://www.facebook.com/menglin.xing?mibextid=LQQJ4d" target="_blank">
             <FaFacebookF className='cursor-pointer' size ={20}></FaFacebookF></a>
 
-            <a href="https://www.instagram.com/mengpangxing" target="_blank">
+            <a href="https://www.instagram.com/lynnnn.x" target="_blank">
             <FaInstagram className='cursor-pointer' size ={20} ></FaInstagram></a>
 
-            <a href="https://www.linkedin.com/in/mengpang-xing?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+            <a href="https://www.linkedin.com/in/lynn-xing-477798223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
             <FaLinkedinIn className='cursor-pointer' size ={20} ></FaLinkedinIn></a>
         </div>
 
