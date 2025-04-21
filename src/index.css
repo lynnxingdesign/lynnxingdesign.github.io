@@ -5,23 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer theme {
-  :root {
-    --color-black: #000000;
-    --color-neutral-700: #424242;
-    --color-neutral-400: #A5A5A5;
-    --color-neutral-100: #EDEDED;
-    --color-gray-200: #F7F7F7;
-    --color-white: #FFFFFF;
-    
-    --font-family-lato: 'Lato', sans-serif;
-  }
-}
-
 @layer base {
   body {
     margin: 0;
     padding: 0;
-    font-family: var(--font-family-lato);
+    font-family: 'Lato', sans-serif;
   }
 }
