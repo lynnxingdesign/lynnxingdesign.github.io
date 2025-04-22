@@ -5,7 +5,7 @@ import Ads from '../assets/ADS/AdsProject2.jpg'
 import Honeywell from '../assets/Honeywell/HoneywellProject2.jpg'
 import Electrolit from '../assets/Electrolit/ElectrolitProject2.jpg'
 import Dell from '../assets/Dell SC 24/DellProject2.jpg'
-import Audi from '../assets/Audi/AudiProject1.jpg'
+import Audi from '../assets/Audi/AudiProject2.jpg'
 
 const FeaturedWork = () => {
   return (
