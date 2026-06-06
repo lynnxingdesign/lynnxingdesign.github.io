@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Logo/Logo_Gray.png';
+import Logo from '../assets/Logo/Logo_Gray.avif';
 import { projects } from '../data/projects';
 
 const setPointerGlow = event => {
@@ -17,7 +17,7 @@ const FeaturedWork = () => {
   return (
     <main className="works-page">
       <section className="page-heading works-heading" aria-label="Featured works introduction">
-        <img src={Logo} alt="Lynn Xing logo" />
+        <img src={Logo} alt="Lynn Xing logo" width="120" height="120" decoding="async" />
         <p>Featured Works</p>
         <h1>Visual Storytelling | Spatial Planning | Brand Expression</h1>
       </section>
@@ -37,11 +37,16 @@ const FeaturedWork = () => {
             </span>
 
             <div className="work-card__media">
-              <img src={project.cover.src} alt={project.cover.alt} />
+              <img
+                src={project.cover.src}
+                alt={project.cover.alt}
+                loading={index < 2 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
               <div className="work-card__thumbs" aria-hidden="true">
                 {project.images.slice(0, 4).map(image => (
                   <span key={image.src}>
-                    <img src={image.src} alt="" />
+                    <img src={image.src} alt="" loading="lazy" decoding="async" />
                   </span>
                 ))}
               </div>

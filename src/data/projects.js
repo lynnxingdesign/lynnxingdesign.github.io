@@ -1,4 +1,4 @@
-const assetModules = import.meta.glob('../assets/**/*.{jpg,jpeg,png}', {
+const assetModules = import.meta.glob('../assets/**/*.avif', {
   eager: true,
   import: 'default',
 });
@@ -18,6 +18,32 @@ const getImages = (folder, label) =>
     }));
 
 const projectDefinitions = [
+  {
+    slug: 'bae-systems-2025',
+    folder: 'Bae',
+    brand: 'BAE SYSTEMS',
+    title: 'Defense Showcase 2025',
+    year: '2025',
+    category: 'Defense exhibit environment',
+    summary:
+      'A bold, mission-driven exhibit that frames flagship platforms with confident sightlines and a clear "strength through partnership" narrative.',
+    disciplines: ['Spatial planning', 'Brand expression', 'Capability storytelling'],
+    accent: '#D2202A',
+    coverIndex: 1,
+  },
+  {
+    slug: 'locus-robotics-2025',
+    folder: 'Locus',
+    brand: 'LOCUS ROBOTICS',
+    title: 'AI Lab 2025',
+    year: '2025',
+    category: 'Technology exhibit',
+    summary:
+      'A sleek, demonstration-led environment that turns autonomous robotics into an approachable, hands-on AI Lab experience.',
+    disciplines: ['Experience design', 'Demonstration zones', 'Visual storytelling'],
+    accent: '#1B9DE0',
+    coverIndex: 1,
+  },
   {
     slug: 'milwaukee-tool-dib-2025',
     folder: 'Milwaukee Tool',
@@ -71,11 +97,11 @@ const projectDefinitions = [
     coverIndex: 1,
   },
   {
-    slug: 'dell-technologies-sc-2024',
-    folder: 'Dell SC 24',
+    slug: 'dell-technologies-sc-2025',
+    folder: 'Dell SC',
     brand: 'DELL TECHNOLOGIES',
-    title: 'SC 2024',
-    year: '2024',
+    title: 'SC 2025',
+    year: '2025',
     category: 'Technology exhibit',
     summary:
       'A polished technology environment with structured content areas and a strong architectural frame.',

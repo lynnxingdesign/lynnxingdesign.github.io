@@ -18,7 +18,13 @@ const ProjectDetail = () => {
     <main className="project-page" style={{ '--project-accent': project.accent }}>
       <section className="project-hero">
         <div className="project-hero__image-wrap">
-          <img src={project.hero.src} alt={project.hero.alt} className="project-hero__image" />
+          <img
+            src={project.hero.src}
+            alt={project.hero.alt}
+            className="project-hero__image"
+            decoding="async"
+            fetchpriority="high"
+          />
         </div>
         <div className="project-hero__content">
           <Link to="/featured-works" className="project-back-link" aria-label="Back to featured works">
@@ -69,7 +75,7 @@ const ProjectDetail = () => {
               index % 5 === 0 || index % 7 === 0 ? 'project-gallery__item--wide' : ''
             }`}
           >
-            <img src={image.src} alt={image.alt} loading="lazy" />
+            <img src={image.src} alt={image.alt} loading="lazy" decoding="async" />
           </figure>
         ))}
       </section>

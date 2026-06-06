@@ -1,21 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Logo/Logo_White.png';
+import Logo from '../assets/Logo/Logo_White.avif';
 import { projects } from '../data/projects';
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentProject = projects[currentIndex];
-
-  useEffect(() => {
-    projects.forEach(project => {
-      [project.hero, project.cover].forEach(image => {
-        if (!image) return;
-        const loader = new Image();
-        loader.src = image.src;
-      });
-    });
-  }, []);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -32,7 +22,7 @@ const Home = () => {
   return (
     <main className="home-page" style={{ '--project-accent': currentProject.accent }}>
       <section className="home-intro" aria-label="Portfolio introduction">
-        <img className="home-intro__logo" src={Logo} alt="Lynn Xing logo" />
+        <img className="home-intro__logo" src={Logo} alt="Lynn Xing logo" width="140" height="140" decoding="async" fetchpriority="high" />
         <p>Hi, I'm Lynn Xing</p>
         <h1>Visual Storytelling | Spatial Planning | Brand Expression</h1>
         <Link to="/featured-works" className="text-link">
@@ -45,14 +35,19 @@ const Home = () => {
           className="home-stage__track"
           style={{ transform: `translate3d(-${currentIndex * 100}%, 0, 0)` }}
         >
-          {projects.map(project => (
+          {projects.map((project, index) => (
             <Link
               to={`/featured-works/${project.slug}`}
               className="home-stage__slide"
               key={project.slug}
               tabIndex={project.slug === currentProject.slug ? 0 : -1}
             >
-              <img src={project.hero.src} alt={project.hero.alt} />
+              <img
+                src={project.hero.src}
+                alt={project.hero.alt}
+                decoding="async"
+                fetchpriority={index === 0 ? 'high' : 'low'}
+              />
             </Link>
           ))}
         </div>
