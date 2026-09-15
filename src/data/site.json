@@ -1,0 +1,606 @@
+{
+  "site": {
+    "title": "Lynn Xing's Portfolio",
+    "description": "Visual Storytelling | Spatial Planning | Brand Expression",
+    "name": "Lynn Xing",
+    "logo": "Logo/LN_Logo.svg",
+    "introLogo": "Logo/Logo_White.avif",
+    "worksLogo": "Logo/Logo_Gray.avif"
+  },
+  "navigation": [
+    {
+      "label": "HOME",
+      "to": "/"
+    },
+    {
+      "label": "FEATURED WORKS",
+      "to": "/featured-works"
+    },
+    {
+      "label": "CONTACTS",
+      "to": "/contacts"
+    }
+  ],
+  "home": {
+    "greeting": "Hi, I'm Lynn Xing",
+    "headline": "Visual Storytelling | Spatial Planning | Brand Expression",
+    "cta": "View Featured Works",
+    "carouselInterval": 4600
+  },
+  "works": {
+    "heading": "Featured Works",
+    "headline": "Visual Storytelling | Spatial Planning | Brand Expression"
+  },
+  "contacts": {
+    "heading": "Contacts",
+    "message": "Coming soon."
+  },
+  "labels": {
+    "viewProject": "View Project",
+    "openProject": "Open Project",
+    "nextProject": "Next Project",
+    "images": "Images",
+    "focus": "Focus",
+    "year": "Year"
+  },
+  "projects": [
+    {
+      "slug": "bae-systems-2025",
+      "brand": "BAE SYSTEMS",
+      "title": "AUSA + AFA",
+      "year": "2026",
+      "category": "Defense exhibit environment",
+      "summary": "The design creates a scalable system that expresses BAE Systems through consistent colors, materials, and architectural forms. Bold white structures, signature red and orange branding, and integrated lighting create a recognizable identity that can adapt across different booth sizes while maintaining a cohesive and impactful brand presence.",
+      "disciplines": [
+        "Brand Identification",
+        "Systematic Design",
+        "Customer Engagement"
+      ],
+      "accent": "#D2202A",
+      "sections": [
+        {
+          "title": "AUSA | 60 × 100",
+          "description": "For AUSA, a 60x100 booth space, the design uses bold overhead architecture, strong BAE Systems branding, and open sightlines to create a commanding presence on the show floor. Large-scale product displays, integrated media, and clearly defined engagement zones organize the space while maintaining a clean, cohesive environment that supports both product storytelling and customer interaction.",
+          "images": [
+            "Bae/BaeProject2.avif",
+            "Bae/BaeProject3.avif",
+            "Bae/BaeProject4.avif",
+            "Bae/BaeProject5.avif",
+            "Bae/BaeProject6.avif",
+            "Bae/BaeProject7.avif",
+            "Bae/BaeProject8.avif",
+            "Bae/BaeProject9.avif",
+            "Bae/BaeProject10.avif",
+            "Bae/BaeProject11.avif",
+            "Bae/BaeProject12.avif",
+            "Bae/BaeProject13.avif",
+            "Bae/BaeProject14.avif",
+            "Bae/BaeProject15.avif",
+            "Bae/BaeProject16.avif",
+            "Bae/BaeProject17.avif",
+            "Bae/BaeProject18.avif",
+            "Bae/BaeProject19.avif"
+          ]
+        },
+        {
+          "title": "AFA | 30 × 40",
+          "description": "For AFA, a 30x40 booth space, the booth translates the same design language into a more compact footprint while maintaining strong and consistent brand presence, clear circulation. It also introduces a smaller product showcase system: Smaller products are shown in focused display areas with integrated lighting to give them greater presence. Clear wayfinding signage helps organize the space into easy-to-navigate zones, guiding visitors to product categories, engagement points, and meeting areas.",
+          "images": []
+        }
+      ],
+      "images": [
+        {
+          "src": "Bae/BaeProject1.avif",
+          "alt": "BAE SYSTEMS project view 1"
+        },
+        {
+          "src": "Bae/BaeProject2.avif",
+          "alt": "BAE SYSTEMS project view 2"
+        },
+        {
+          "src": "Bae/BaeProject3.avif",
+          "alt": "BAE SYSTEMS project view 3"
+        },
+        {
+          "src": "Bae/BaeProject4.avif",
+          "alt": "BAE SYSTEMS project view 4"
+        },
+        {
+          "src": "Bae/BaeProject5.avif",
+          "alt": "BAE SYSTEMS project view 5"
+        },
+        {
+          "src": "Bae/BaeProject6.avif",
+          "alt": "BAE SYSTEMS project view 6"
+        },
+        {
+          "src": "Bae/BaeProject7.avif",
+          "alt": "BAE SYSTEMS project view 7"
+        },
+        {
+          "src": "Bae/BaeProject8.avif",
+          "alt": "BAE SYSTEMS project view 8"
+        },
+        {
+          "src": "Bae/BaeProject9.avif",
+          "alt": "BAE SYSTEMS project view 9"
+        },
+        {
+          "src": "Bae/BaeProject10.avif",
+          "alt": "BAE SYSTEMS project view 10"
+        },
+        {
+          "src": "Bae/BaeProject11.avif",
+          "alt": "BAE SYSTEMS project view 11"
+        },
+        {
+          "src": "Bae/BaeProject12.avif",
+          "alt": "BAE SYSTEMS project view 12"
+        },
+        {
+          "src": "Bae/BaeProject13.avif",
+          "alt": "BAE SYSTEMS project view 13"
+        },
+        {
+          "src": "Bae/BaeProject14.avif",
+          "alt": "BAE SYSTEMS project view 14"
+        },
+        {
+          "src": "Bae/BaeProject15.avif",
+          "alt": "BAE SYSTEMS project view 15"
+        },
+        {
+          "src": "Bae/BaeProject16.avif",
+          "alt": "BAE SYSTEMS project view 16"
+        },
+        {
+          "src": "Bae/BaeProject17.avif",
+          "alt": "BAE SYSTEMS project view 17"
+        },
+        {
+          "src": "Bae/BaeProject18.avif",
+          "alt": "BAE SYSTEMS project view 18"
+        },
+        {
+          "src": "Bae/BaeProject19.avif",
+          "alt": "BAE SYSTEMS project view 19"
+        }
+      ],
+      "heroImage": "Bae/BaeProject1.avif",
+      "coverImage": "Bae/BaeProject2.avif"
+    },
+    {
+      "slug": "locus-robotics-2025",
+      "brand": "LOCUS ROBOTICS",
+      "title": "MODEX",
+      "year": "2026",
+      "category": "Technology exhibit",
+      "summary": "The design transforms the booth into an innovative, immersive warehouse environment that tells the Locus product story as one connected experience. Realistic warehouse elements are combined with bold digital media, lighting and branded architecture to show how each solution works together within the broader warehouse automation ecosystem. Visitors move through the space as if they are exploring a future-ready warehouse, allowing the technology, software, and operational benefits to be understood as a complete system rather than individual products.",
+      "disciplines": [
+        "Immersive Environment",
+        "Product Storytelling",
+        "Bold Digital Media"
+      ],
+      "accent": "#1B9DE0",
+      "images": [
+        {
+          "src": "Locus/LocusProject1.avif",
+          "alt": "LOCUS ROBOTICS project view 1"
+        },
+        {
+          "src": "Locus/LocusProject2.avif",
+          "alt": "LOCUS ROBOTICS project view 2"
+        },
+        {
+          "src": "Locus/LocusProject3.avif",
+          "alt": "LOCUS ROBOTICS project view 3"
+        },
+        {
+          "src": "Locus/LocusProject4.avif",
+          "alt": "LOCUS ROBOTICS project view 4"
+        },
+        {
+          "src": "Locus/LocusProject5.avif",
+          "alt": "LOCUS ROBOTICS project view 5"
+        },
+        {
+          "src": "Locus/LocusProject6.avif",
+          "alt": "LOCUS ROBOTICS project view 6"
+        },
+        {
+          "src": "Locus/LocusProject7.avif",
+          "alt": "LOCUS ROBOTICS project view 7"
+        },
+        {
+          "src": "Locus/LocusProject8.avif",
+          "alt": "LOCUS ROBOTICS project view 8"
+        },
+        {
+          "src": "Locus/LocusProject9.avif",
+          "alt": "LOCUS ROBOTICS project view 9"
+        },
+        {
+          "src": "Locus/LocusProject10.avif",
+          "alt": "LOCUS ROBOTICS project view 10"
+        },
+        {
+          "src": "Locus/LocusProject11.avif",
+          "alt": "LOCUS ROBOTICS project view 11"
+        },
+        {
+          "src": "Locus/LocusProject12.avif",
+          "alt": "LOCUS ROBOTICS project view 12"
+        },
+        {
+          "src": "Locus/LocusProject13.avif",
+          "alt": "LOCUS ROBOTICS project view 13"
+        },
+        {
+          "src": "Locus/LocusProject14.avif",
+          "alt": "LOCUS ROBOTICS project view 14"
+        }
+      ],
+      "heroImage": "Locus/LocusProject1.avif",
+      "coverImage": "Locus/LocusProject2.avif"
+    },
+    {
+      "slug": "milwaukee-tool-dib-2025",
+      "brand": "MILWAUKEE TOOL",
+      "title": "DIB",
+      "year": "2025",
+      "category": "Trade show environment",
+      "summary": "The design creates a bold, interactive Milwaukee Tool experience that encourages visitors to explore, engage and discover products firsthand. Retail-inspired displays, hands-on product stations, digital content, and demonstration zones turn the booth into an active environment rather than a static showcase. Signature red branding, industrial materials, and integrated lighting reinforce Milwaukee Tool’s rugged identity while guiding visitors through an intuitive product journey.",
+      "disciplines": [
+        "Interactive Solution",
+        "Brand Enhancement",
+        "Industrial Material Integration"
+      ],
+      "accent": "#D2362A",
+      "images": [
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject1.avif",
+          "alt": "MILWAUKEE TOOL project view 1"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject2.avif",
+          "alt": "MILWAUKEE TOOL project view 2"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject3.avif",
+          "alt": "MILWAUKEE TOOL project view 3"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject4.avif",
+          "alt": "MILWAUKEE TOOL project view 4"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject5.avif",
+          "alt": "MILWAUKEE TOOL project view 5"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject6.avif",
+          "alt": "MILWAUKEE TOOL project view 6"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject7.avif",
+          "alt": "MILWAUKEE TOOL project view 7"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject8.avif",
+          "alt": "MILWAUKEE TOOL project view 8"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject9.avif",
+          "alt": "MILWAUKEE TOOL project view 9"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject10.avif",
+          "alt": "MILWAUKEE TOOL project view 10"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject11.avif",
+          "alt": "MILWAUKEE TOOL project view 11"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject12.avif",
+          "alt": "MILWAUKEE TOOL project view 12"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject13.avif",
+          "alt": "MILWAUKEE TOOL project view 13"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject14.avif",
+          "alt": "MILWAUKEE TOOL project view 14"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject15.avif",
+          "alt": "MILWAUKEE TOOL project view 15"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject16.avif",
+          "alt": "MILWAUKEE TOOL project view 16"
+        },
+        {
+          "src": "Milwaukee Tool/MilwaukeeToolProject17.avif",
+          "alt": "MILWAUKEE TOOL project view 17"
+        }
+      ],
+      "heroImage": "Milwaukee Tool/MilwaukeeToolProject1.avif",
+      "coverImage": "Milwaukee Tool/MilwaukeeToolProject2.avif"
+    },
+    {
+      "slug": "ads-ausa-2025",
+      "brand": "ADS",
+      "title": "AUSA",
+      "year": "2025",
+      "category": "Exhibit experience",
+      "summary": "The design creates a mission-focused ADS experience that combines strong brand storytelling with hands-on product discovery. Bold black and gold graphics, illuminated architectural elements, and high-visibility messaging establish a tactical identity, while clearly defined product zones make the booth easy to navigate. Using layered messaging to guide visitors from broad brand purpose to specific mission solutions, establish the core brand story from a distance and reveal more detailed information as visitors move through the booth. The brand hierarchy creates a clear journey from brand awareness to product discovery and deeper engagement.",
+      "disciplines": [
+        "Product Discovery",
+        "Bold Architecture",
+        "Layered Messaging"
+      ],
+      "accent": "#1F6F78",
+      "images": [
+        {
+          "src": "ADS/AdsProject1.avif",
+          "alt": "ADS project view 1"
+        },
+        {
+          "src": "ADS/AdsProject2.avif",
+          "alt": "ADS project view 2"
+        },
+        {
+          "src": "ADS/AdsProject3.avif",
+          "alt": "ADS project view 3"
+        },
+        {
+          "src": "ADS/AdsProject4.avif",
+          "alt": "ADS project view 4"
+        },
+        {
+          "src": "ADS/AdsProject5.avif",
+          "alt": "ADS project view 5"
+        },
+        {
+          "src": "ADS/AdsProject6.avif",
+          "alt": "ADS project view 6"
+        },
+        {
+          "src": "ADS/AdsProject7.avif",
+          "alt": "ADS project view 7"
+        },
+        {
+          "src": "ADS/AdsProject8.avif",
+          "alt": "ADS project view 8"
+        },
+        {
+          "src": "ADS/AdsProject9.avif",
+          "alt": "ADS project view 9"
+        },
+        {
+          "src": "ADS/AdsProject10.avif",
+          "alt": "ADS project view 10"
+        },
+        {
+          "src": "ADS/AdsProject11.avif",
+          "alt": "ADS project view 11"
+        },
+        {
+          "src": "ADS/AdsProject12.avif",
+          "alt": "ADS project view 12"
+        },
+        {
+          "src": "ADS/AdsProject13.avif",
+          "alt": "ADS project view 13"
+        },
+        {
+          "src": "ADS/AdsProject14.avif",
+          "alt": "ADS project view 14"
+        },
+        {
+          "src": "ADS/AdsProject15.avif",
+          "alt": "ADS project view 15"
+        },
+        {
+          "src": "ADS/AdsProject16.avif",
+          "alt": "ADS project view 16"
+        }
+      ],
+      "heroImage": "ADS/AdsProject1.avif",
+      "coverImage": "ADS/AdsProject2.avif"
+    },
+    {
+      "slug": "dell-technologies-sc-2025",
+      "brand": "DELL TECHNOLOGIES",
+      "title": "SC",
+      "year": "2025",
+      "category": "Technology exhibit",
+      "summary": "The design creates a clean, future-focused Dell Technologies environment that presents complex technology in an approachable, highly organized way. A bold overhead frame establishes strong visibility, while layered portals, illuminated edges, digital content, and open product displays guide visitors through the AI Factory story and partner ecosystem. Light wood, greenery, and white finishes soften the high-tech architecture, creating a more welcoming space for hands-on product exploration, demonstrations, and conversation.",
+      "disciplines": [
+        "Future Focused",
+        "Product Organization",
+        "Textured Environment"
+      ],
+      "accent": "#2B73B9",
+      "images": [
+        {
+          "src": "Dell SC/DellSCProject1.avif",
+          "alt": "DELL TECHNOLOGIES project view 1"
+        },
+        {
+          "src": "Dell SC/DellSCProject2.avif",
+          "alt": "DELL TECHNOLOGIES project view 2"
+        },
+        {
+          "src": "Dell SC/DellSCProject3.avif",
+          "alt": "DELL TECHNOLOGIES project view 3"
+        },
+        {
+          "src": "Dell SC/DellSCProject4.avif",
+          "alt": "DELL TECHNOLOGIES project view 4"
+        },
+        {
+          "src": "Dell SC/DellSCProject5.avif",
+          "alt": "DELL TECHNOLOGIES project view 5"
+        },
+        {
+          "src": "Dell SC/DellSCProject6.avif",
+          "alt": "DELL TECHNOLOGIES project view 6"
+        },
+        {
+          "src": "Dell SC/DellSCProject7.avif",
+          "alt": "DELL TECHNOLOGIES project view 7"
+        },
+        {
+          "src": "Dell SC/DellSCProject8.avif",
+          "alt": "DELL TECHNOLOGIES project view 8"
+        },
+        {
+          "src": "Dell SC/DellSCProject9.avif",
+          "alt": "DELL TECHNOLOGIES project view 9"
+        },
+        {
+          "src": "Dell SC/DellSCProject10.avif",
+          "alt": "DELL TECHNOLOGIES project view 10"
+        },
+        {
+          "src": "Dell SC/DellSCProject11.avif",
+          "alt": "DELL TECHNOLOGIES project view 11"
+        },
+        {
+          "src": "Dell SC/DellSCProject12.avif",
+          "alt": "DELL TECHNOLOGIES project view 12"
+        }
+      ],
+      "heroImage": "Dell SC/DellSCProject1.avif",
+      "coverImage": "Dell SC/DellSCProject2.avif"
+    },
+    {
+      "slug": "electrolit-nacs-2024",
+      "brand": "ELECTROLIT",
+      "title": "NASS",
+      "year": "2024",
+      "category": "Retail activation",
+      "summary": "The design creates a bold, high-energy Electrolit experience that connects hydration with active lifestyle and performance. Large-format graphics, dynamic digital media, neon-inspired lighting, and oversized branding create strong visibility, while an interactive product bar and digital tabletop encourage sampling and hands-on engagement. Layered messaging around exercise, recovery, and hydration guides visitors through the brand story, turning the booth into an immersive environment that feels active, social, and memorable.",
+      "disciplines": [
+        "High-Energy",
+        "Lifestyle Highlight",
+        "Dynamic Digital Media"
+      ],
+      "accent": "#EE6A38",
+      "images": [
+        {
+          "src": "Electrolit/ElectrolitProject1.avif",
+          "alt": "ELECTROLIT project view 1"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject2.avif",
+          "alt": "ELECTROLIT project view 2"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject3.avif",
+          "alt": "ELECTROLIT project view 3"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject4.avif",
+          "alt": "ELECTROLIT project view 4"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject5.avif",
+          "alt": "ELECTROLIT project view 5"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject6.avif",
+          "alt": "ELECTROLIT project view 6"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject7.avif",
+          "alt": "ELECTROLIT project view 7"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject8.avif",
+          "alt": "ELECTROLIT project view 8"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject9.avif",
+          "alt": "ELECTROLIT project view 9"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject10.avif",
+          "alt": "ELECTROLIT project view 10"
+        },
+        {
+          "src": "Electrolit/ElectrolitProject11.avif",
+          "alt": "ELECTROLIT project view 11"
+        }
+      ],
+      "heroImage": "Electrolit/ElectrolitProject1.avif",
+      "coverImage": "Electrolit/ElectrolitProject2.avif"
+    },
+    {
+      "slug": "audi-showroom-2023",
+      "brand": "AUDI SHOWROOM",
+      "title": "Showroom",
+      "year": "2023",
+      "category": "Showroom environment",
+      "summary": "A showroom concept emphasizing premium materiality, clean sightlines, and vehicle-focused storytelling.",
+      "disciplines": [
+        "Showroom planning",
+        "Material direction",
+        "Brand atmosphere"
+      ],
+      "accent": "#8F8F8F",
+      "images": [
+        {
+          "src": "Audi/AudiProject1.avif",
+          "alt": "AUDI SHOWROOM project view 1"
+        },
+        {
+          "src": "Audi/AudiProject2.avif",
+          "alt": "AUDI SHOWROOM project view 2"
+        },
+        {
+          "src": "Audi/AudiProject3.avif",
+          "alt": "AUDI SHOWROOM project view 3"
+        },
+        {
+          "src": "Audi/AudiProject4.avif",
+          "alt": "AUDI SHOWROOM project view 4"
+        },
+        {
+          "src": "Audi/AudiProject5.avif",
+          "alt": "AUDI SHOWROOM project view 5"
+        }
+      ],
+      "heroImage": "Audi/AudiProject1.avif",
+      "coverImage": "Audi/AudiProject2.avif"
+    },
+    {
+      "enabled": false,
+      "_instructions": "Fill in this project, add its images under src/assets, then set enabled to true. Duplicate this slot for more projects.",
+      "slug": "new-project",
+      "brand": "NEW CLIENT",
+      "title": "EVENT NAME",
+      "year": "2026",
+      "category": "Exhibit experience",
+      "summary": "Describe the project here.",
+      "disciplines": [
+        "Design focus one",
+        "Design focus two",
+        "Design focus three"
+      ],
+      "accent": "#171717",
+      "images": [
+        {
+          "src": "New Project/Project1.avif",
+          "alt": "Describe the project image"
+        }
+      ],
+      "heroImage": "New Project/Project1.avif",
+      "coverImage": "New Project/Project1.avif",
+      "sections": []
+    }
+  ]
+}

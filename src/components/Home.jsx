@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { siteContent, assetUrl } from '../data/projects';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Logo/Logo_White.avif';
 import { projects } from '../data/projects';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     const timer = window.setInterval(() => {
       setCurrentIndex(index => (index + 1) % projects.length);
-    }, 4600);
+    }, siteContent.home.carouselInterval);
 
     return () => window.clearInterval(timer);
   }, []);
@@ -22,11 +22,11 @@ const Home = () => {
   return (
     <main className="home-page" style={{ '--project-accent': currentProject.accent }}>
       <section className="home-intro" aria-label="Portfolio introduction">
-        <img className="home-intro__logo" src={Logo} alt="Lynn Xing logo" width="140" height="140" decoding="async" fetchpriority="high" />
-        <p>Hi, I'm Lynn Xing</p>
-        <h1>Visual Storytelling | Spatial Planning | Brand Expression</h1>
+        <img className="home-intro__logo" src={assetUrl(siteContent.site.introLogo)} alt={`${siteContent.site.name} logo`} width="140" height="140" decoding="async" fetchPriority="high" />
+        <p>{siteContent.home.greeting}</p>
+        <h1>{siteContent.home.headline}</h1>
         <Link to="/featured-works" className="text-link">
-          View Featured Works
+          {siteContent.home.cta}
         </Link>
       </section>
 
@@ -46,7 +46,7 @@ const Home = () => {
                 src={project.hero.src}
                 alt={project.hero.alt}
                 decoding="async"
-                fetchpriority={index === 0 ? 'high' : 'low'}
+                fetchPriority={index === 0 ? 'high' : 'low'}
               />
             </Link>
           ))}
@@ -55,8 +55,8 @@ const Home = () => {
         <div className="home-stage__caption">
           <span>{currentProject.category}</span>
           <h2>{currentProject.brand}</h2>
-          <p>{currentProject.title}</p>
-          <Link to={`/featured-works/${currentProject.slug}`}>View Project</Link>
+          <p>{currentProject.title} | {currentProject.year}</p>
+          <Link to={`/featured-works/${currentProject.slug}`}>{siteContent.labels.viewProject}</Link>
         </div>
 
         <div className="home-stage__controls" aria-label="Carousel controls">

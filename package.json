@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run validate:content && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",

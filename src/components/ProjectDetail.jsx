@@ -1,4 +1,4 @@
-import React from 'react';
+import { siteContent } from '../data/projects';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { getProjectBySlug, projects } from '../data/projects';
 
@@ -12,7 +12,7 @@ const ProjectDetail = () => {
 
   const projectIndex = projects.findIndex(item => item.slug === project.slug);
   const nextProject = projects[(projectIndex + 1) % projects.length];
-  const galleryImages = project.images.slice(1);
+  const galleryImages = project.images.filter(image => image.src !== project.hero.src && !project.sections?.some(section => section.images.some(item => item.src === image.src)));
 
   return (
     <main className="project-page" style={{ '--project-accent': project.accent }}>
@@ -23,7 +23,7 @@ const ProjectDetail = () => {
             alt={project.hero.alt}
             className="project-hero__image"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
         </div>
         <div className="project-hero__content">
@@ -33,7 +33,7 @@ const ProjectDetail = () => {
                 <path d="M15.5 5 8.5 12l7 7" />
               </svg>
             </span>
-            <span>Featured Works</span>
+            <span>{siteContent.works.heading}</span>
           </Link>
           <p className="project-kicker">{project.category}</p>
           <h1>{project.brand}</h1>
@@ -48,15 +48,15 @@ const ProjectDetail = () => {
         <p>{project.summary}</p>
         <div className="project-stats" aria-label="Project details">
           <div>
-            <span>Images</span>
+            <span>{siteContent.labels.images}</span>
             <strong>{project.images.length}</strong>
           </div>
           <div>
-            <span>Focus</span>
+            <span>{siteContent.labels.focus}</span>
             <strong>{project.category}</strong>
           </div>
           <div>
-            <span>Year</span>
+            <span>{siteContent.labels.year}</span>
             <strong>{project.year}</strong>
           </div>
         </div>
@@ -66,6 +66,20 @@ const ProjectDetail = () => {
           ))}
         </ul>
       </section>
+
+      {project.sections?.map(section => (
+        <section key={section.title} className="project-story">
+          <h2>{section.title}</h2>
+          <p>{section.description}</p>
+          <div className="project-gallery">
+            {section.images.map((image, index) => (
+              <figure key={image.src} className={`project-gallery__item ${index % 5 === 0 || index % 7 === 0 ? 'project-gallery__item--wide' : ''}`}>
+                <img src={image.src} alt={image.alt} loading="lazy" decoding="async" />
+              </figure>
+            ))}
+          </div>
+        </section>
+      ))}
 
       <section className="project-gallery" aria-label={`${project.brand} image gallery`}>
         {galleryImages.map((image, index) => (
@@ -82,7 +96,7 @@ const ProjectDetail = () => {
 
       <section className="project-next" aria-label="Next project">
         <Link to={`/featured-works/${nextProject.slug}`} className="project-next__link">
-          <span>Next Project</span>
+          <span>{siteContent.labels.nextProject}</span>
           <strong>{nextProject.brand}</strong>
           <small>{nextProject.title}</small>
         </Link>

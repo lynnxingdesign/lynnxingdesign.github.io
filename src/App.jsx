@@ -1,3 +1,4 @@
+import { siteContent } from './data/projects';
 import React from 'react';
 import {
   BrowserRouter,
@@ -24,8 +25,8 @@ const ScrollToTop = () => {
 
 const ContactPlaceholder = () => (
   <main className="contact-placeholder">
-    <p>Contacts</p>
-    <h1>Coming soon.</h1>
+    <p>{siteContent.contacts.heading}</p>
+    <h1>{siteContent.contacts.message}</h1>
   </main>
 );
 

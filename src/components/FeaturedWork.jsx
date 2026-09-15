@@ -1,6 +1,5 @@
-import React from 'react';
+import { siteContent, assetUrl } from '../data/projects';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Logo/Logo_Gray.avif';
 import { projects } from '../data/projects';
 
 const setPointerGlow = event => {
@@ -17,9 +16,9 @@ const FeaturedWork = () => {
   return (
     <main className="works-page">
       <section className="page-heading works-heading" aria-label="Featured works introduction">
-        <img src={Logo} alt="Lynn Xing logo" width="120" height="120" decoding="async" />
-        <p>Featured Works</p>
-        <h1>Visual Storytelling | Spatial Planning | Brand Expression</h1>
+        <img src={assetUrl(siteContent.site.worksLogo)} alt={`${siteContent.site.name} logo`} width="120" height="120" decoding="async" />
+        <p>{siteContent.works.heading}</p>
+        <h1>{siteContent.works.headline}</h1>
       </section>
 
       <section className="works-list" aria-label="Featured projects">
@@ -54,7 +53,7 @@ const FeaturedWork = () => {
 
             <div className="work-card__body">
               <p>{project.brand}</p>
-              <h2>{project.title}</h2>
+              <h2>{project.title} | {project.year}</h2>
               <span>{project.category}</span>
               <small>{project.summary}</small>
               <div className="work-card__meta">
@@ -63,7 +62,7 @@ const FeaturedWork = () => {
                 ))}
               </div>
               <strong>
-                Open Project
+                {siteContent.labels.openProject}
                 <svg aria-hidden="true" viewBox="0 0 24 24">
                   <path d="M7 17 17 7M9 7h8v8" />
                 </svg>
