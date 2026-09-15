@@ -53,7 +53,7 @@ The build validates JSON, image paths, hero/cover references, navigation, slugs,
 
 ## Publishing
 
-This repository publishes through **Settings → Pages → Build and deployment → Source → GitHub Actions**. Push changes to `main` to publish. The workflow publishes the validated `dist` artifact using GitHub's official Pages actions. See [GitHub's workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+The **Publish portfolio** GitHub Actions workflow publishes the site on pushes to `main`. Deployment has been verified with the existing Pages configuration; no manual settings change is required. Avoid pushing old builds to the legacy `gh-pages` branch. The workflow publishes the validated `dist` artifact using GitHub's official Pages actions. See [GitHub's workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
 Future pushes changing the JSON, image assets, source, or build configuration publish automatically. You can also run **Publish portfolio** manually from Actions. Revert a content commit to restore earlier content and trigger another deployment.
 
